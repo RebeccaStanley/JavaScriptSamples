@@ -8,11 +8,11 @@ var trainNumber = 1;
 
 var passengerList = [];
 passengerList = addPassenger("Gregg Pollack", passengerList);
-passengerList = addPassenger("Annie Lacasse", passengerList);
-passengerList = addPassenger("Textie windk", passengerList);
+passengerList = addPassenger("Ezio Auditore", passengerList);
+passengerList = addPassenger("Witcher Geralt", passengerList);
 
-passengerList = deletePassenger("Annie Lacasse", passengerList);
-passengerList = deletePassenger("Annie Lacasse", passengerList);
+passengerList = deletePassenger("Ezio Auditor", passengerList);
+passengerList = deletePassenger("Gregg Pollack", passengerList);
 
 
 //while (trainNumber <= trainsOperational){
