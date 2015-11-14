@@ -1,5 +1,5 @@
 /**
- * 
+ * This is my first JavaScript file
  */
 
 var trainsOperational = 8;
