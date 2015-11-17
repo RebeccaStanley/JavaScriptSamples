@@ -121,13 +121,6 @@ var puzzlers = [function(a){return 3 * a - 8;},
 
 //hoisting example
 function capacityStatus(numPassengers, capacity){
-	//if the train is full
-	if (numPassengers == capacity){
-		noSeats();
-	}else{
-		seatsAvail();
-	}
-	
 	var noSeats = function(){
 		alert ("No seats left!");
 		return false;
@@ -137,5 +130,14 @@ function capacityStatus(numPassengers, capacity){
 		alert("There are " + (capacity - numPassengers) + " seats left!");
 		return true;
 	}
+	
+	//if the train is full
+	if (numPassengers == capacity){
+		noSeats();
+	}else{
+		seatsAvail();
+	}
 
 }
+
+
